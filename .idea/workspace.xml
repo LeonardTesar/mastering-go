@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31a8a2e-69d9-4583-a2d5-dc32add5167f" name="Changes" comment="[#01] hello world + go build command">
-      <change afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
+    <list default="true" id="d31a8a2e-69d9-4583-a2d5-dc32add5167f" name="Changes" comment="[#01] variables">
+      <change afterPath="$PROJECT_DIR$/chapter_1/control.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/hw.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/variables.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\mastering-go\chapter_1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="mastering-go" />
@@ -118,7 +126,7 @@
       <workItem from="1740259073603" duration="345000" />
       <workItem from="1740259571068" duration="199000" />
       <workItem from="1740259783640" duration="38000" />
-      <workItem from="1740324128709" duration="3764000" />
+      <workItem from="1740324128709" duration="5395000" />
     </task>
     <task id="LOCAL-00001" summary="[#init] created go project with sample code">
       <option name="closed" value="true" />
@@ -144,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740330913265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[#01] variables">
+      <option name="closed" value="true" />
+      <created>1740333041395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740333041395</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +170,8 @@
     <MESSAGE value="[#init] created go project with sample code" />
     <MESSAGE value="[#init] added gitignore" />
     <MESSAGE value="[#01] hello world + go build command" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#01] hello world + go build command" />
+    <MESSAGE value="[#01] variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#01] variables" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
