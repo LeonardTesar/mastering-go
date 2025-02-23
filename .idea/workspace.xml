@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31a8a2e-69d9-4583-a2d5-dc32add5167f" name="Changes" comment="[#init] added gitignore">
-      <change afterPath="$PROJECT_DIR$/hw.go" afterDir="false" />
+    <list default="true" id="d31a8a2e-69d9-4583-a2d5-dc32add5167f" name="Changes" comment="[#01] hello world + go build command">
+      <change afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,7 @@
       <workItem from="1740259073603" duration="345000" />
       <workItem from="1740259571068" duration="199000" />
       <workItem from="1740259783640" duration="38000" />
-      <workItem from="1740324128709" duration="2064000" />
+      <workItem from="1740324128709" duration="3764000" />
     </task>
     <task id="LOCAL-00001" summary="[#init] created go project with sample code">
       <option name="closed" value="true" />
@@ -135,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740259651429</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[#01] hello world + go build command">
+      <option name="closed" value="true" />
+      <created>1740330913265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740330913265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[#init] created go project with sample code" />
     <MESSAGE value="[#init] added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#init] added gitignore" />
+    <MESSAGE value="[#01] hello world + go build command" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#01] hello world + go build command" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
