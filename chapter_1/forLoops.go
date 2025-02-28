@@ -1,8 +1,8 @@
-package main
+package chapter_1
 
 import "fmt"
 
-func main() {
+func ForLoops() {
 	// Traditional for loop
 	for i := 0; i < 10; i++ {
 		fmt.Print(i*i, " ")

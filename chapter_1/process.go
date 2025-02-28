@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Process() {
 	arguments := os.Args
 	if len(arguments) == 1 {
 		fmt.Println("Not enough arguments")

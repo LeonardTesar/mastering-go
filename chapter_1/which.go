@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 )
 
-func main() {
+func Which() {
 	arguments := os.Args
 	if len(arguments) == 1 {
 		fmt.Println("Please provide an argument!")
@@ -16,7 +16,6 @@ func main() {
 	file := arguments[1]
 	path := os.Getenv("PATH")
 	pathSplit := filepath.SplitList(path)
-	fmt.Println(pathSplit)
 
 	for _, directory := range pathSplit {
 		fullPath := filepath.Join(directory, file)

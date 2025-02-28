@@ -1,9 +1,9 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
 )
 
-func main() {
+func Hw() {
 	fmt.Println("Hello World!")
 }

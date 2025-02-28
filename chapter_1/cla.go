@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Cla() {
 	arguments := os.Args
 	// First argument is always the file path (temp file path in case of go run)
 	if len(arguments) == 1 {

@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func Control() {
 
 	if len(os.Args) != 2 {
 		fmt.Println("Please provide a command line argument")

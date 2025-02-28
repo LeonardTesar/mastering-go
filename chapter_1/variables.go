@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 var Global int = 1234
 var AnotherGlobal = -5678
 
-func main() {
+func Variables() {
 	var j int
 	i := Global + AnotherGlobal
 	fmt.Println("Initial j value: ", j)

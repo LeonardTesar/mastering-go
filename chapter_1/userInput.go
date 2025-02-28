@@ -1,8 +1,8 @@
-package main
+package chapter_1
 
 import "fmt"
 
-func main() {
+func UserInput() {
 	// Get user input
 	fmt.Print("Please give me your name: ")
 	var name string

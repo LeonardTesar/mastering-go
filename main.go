@@ -1,21 +1,53 @@
 package main
 
 import (
+	"Mastering_Go/chapter_1"
+	"bufio"
 	"fmt"
+	"os"
+	"strings"
 )
 
-//TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
-// the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.</p>
-
 func main() {
-	//TIP <p>Press <shortcut actionId="ShowIntentionActions"/> when your caret is at the underlined text
-	// to see how GoLand suggests fixing the warning.</p><p>Alternatively, if available, click the lightbulb to view possible fixes.</p>
-	s := "gopher"
-	fmt.Println("Hello and welcome, %s!", s)
+	fmt.Println("Please enter the function you want to execute.")
+	fmt.Println("Schema: functionCall argument1 argument2 ... argumentN")
+	fmt.Print("Call: ")
+	var functionCall string
 
-	for i := 1; i <= 5; i++ {
-		//TIP <p>To start your debugging session, right-click your code in the editor and select the Debug option.</p> <p>We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-		// for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.</p>
-		fmt.Println("i =", 100/i)
+	scanner := bufio.NewScanner(os.Stdin)
+	if !scanner.Scan() {
+		fmt.Println("Aborting due to error:", scanner.Err().Error())
+		return
+	}
+
+	functionCall = scanner.Text()
+	functionCallParts := strings.Split(functionCall, " ")
+	functionName := functionCallParts[0]
+	os.Args = os.Args[:1]
+	for i := 1; i < len(functionCallParts); i++ {
+		os.Args = append(os.Args, functionCallParts[i])
+	}
+
+	switch functionName {
+	case "which":
+		chapter_1.Which()
+	case "variables":
+		chapter_1.Variables()
+	case "userInput":
+		chapter_1.UserInput()
+	case "process":
+		chapter_1.Process()
+	case "hw":
+		chapter_1.Hw()
+	case "goRoutines":
+		chapter_1.GoRoutines()
+	case "forLoops":
+		chapter_1.ForLoops()
+	case "control":
+		chapter_1.Control()
+	case "cla":
+		chapter_1.Cla()
+	default:
+		fmt.Printf("Function %s is not yet implemented.", functionName)
 	}
 }

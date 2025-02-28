@@ -1,4 +1,4 @@
-package main
+package chapter_1
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ func myPrint(start, finish int) {
 // Incorrect (unsafe) way of synchronizing. Correct one will be covered in chapter_8
 // This program will most likely produce a different output each time it is executed, since the execution (and order) of
 // go routines is handled by th go scheduler and are initialized (and started) in a random order.
-func main() {
+func GoRoutines() {
 	for i := 0; i < 4; i++ {
 		go myPrint(i, 5)
 	}
