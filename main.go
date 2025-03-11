@@ -51,6 +51,8 @@ func main() {
 		chapter_1.SystemLog()
 	case "multiLog":
 		chapter_1.MultiLog()
+	case "stats":
+		chapter_1.Stats()
 	default:
 		fmt.Printf("Function %s is not yet implemented.", functionName)
 	}
