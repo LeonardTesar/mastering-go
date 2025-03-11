@@ -49,6 +49,8 @@ func main() {
 		chapter_1.Cla()
 	case "systemLog":
 		chapter_1.SystemLog()
+	case "multiLog":
+		chapter_1.MultiLog()
 	default:
 		fmt.Printf("Function %s is not yet implemented.", functionName)
 	}
