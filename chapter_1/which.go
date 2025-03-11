@@ -10,7 +10,7 @@ func Which() {
 	arguments := os.Args
 	if len(arguments) == 1 {
 		fmt.Println("Please provide an argument!")
-		return
+		os.Exit(1)
 	}
 
 	file := arguments[1]
