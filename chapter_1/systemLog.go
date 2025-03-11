@@ -6,6 +6,9 @@ import (
 )
 
 func SystemLog() {
+	// Usually a log file would be placed in the temp directory like this:
+	// LOGFILE := path.Join(os.TempDir(), "masteringGo.log")
+
 	// Basic logging options. Create the file if it doesn't exist yet, write only access and append to current content.
 	file, err := os.OpenFile("app.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
