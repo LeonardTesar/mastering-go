@@ -47,6 +47,8 @@ func main() {
 		chapter_1.Control()
 	case "cla":
 		chapter_1.Cla()
+	case "systemLog":
+		chapter_1.SystemLog()
 	default:
 		fmt.Printf("Function %s is not yet implemented.", functionName)
 	}
