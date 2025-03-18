@@ -1,6 +1,9 @@
 package chapter_02
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func Numbers() {
 	// Complex numbers are directly supported by go
@@ -33,4 +36,8 @@ func Numbers() {
 	divFloat := float64(x) / float64(k)
 	fmt.Println("divFloat 12 / 5:", divFloat)
 	fmt.Printf("Type of divFloat: %T\n", divFloat)
+
+	// The math package contains the min and max int (and other numeric) values for the current platform
+	fmt.Println("Max int:", math.MaxInt)
+	fmt.Println("Min int:", math.MinInt)
 }
