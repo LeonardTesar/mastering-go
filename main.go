@@ -60,6 +60,8 @@ func main() {
 			chapter_02.CustomErrors()
 		case "numbers":
 			chapter_02.Numbers()
+		case "stats2":
+			chapter_02.Stats()
 		case "exit":
 			os.Exit(0)
 		default:
