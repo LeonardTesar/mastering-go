@@ -2,6 +2,7 @@ package main
 
 import (
 	"Mastering_Go/chapter_02"
+	"Mastering_Go/chapter_03"
 	"Mastering_Go/chapter_1"
 	"bufio"
 	"fmt"
@@ -62,6 +63,8 @@ func main() {
 			chapter_02.Numbers()
 		case "stats2":
 			chapter_02.Stats()
+		case "csvReadWrite":
+			chapter_03.ReadWriteCsv()
 		case "exit":
 			os.Exit(0)
 		default:
